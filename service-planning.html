@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="GoBright-Anbarasan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planning & Designing | SVT Builders & Promoters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ["Inter", "Arial", "sans-serif"] }, colors: { paper: "#f7f4ef", ink: "#111827", muted: "#5f6b7a", charcoal: "#1d252c", brass: "#b98942", teal: "#1f6f6b" }, boxShadow: { soft: "0 18px 45px rgba(17,24,39,.14)" } } } }</script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body class="bg-paper font-sans text-ink antialiased">
+  <div class="hidden bg-charcoal px-5 py-2 text-sm font-semibold text-white/80 md:block lg:px-[72px]">
+    <div class="flex items-center justify-between gap-4">
+      <span>Welcome to SVT Builders & Promoters Website</span>
+      <div class="top-social-links flex items-center gap-3">
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i><span>YouTube</span></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a>
+        <a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+            class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Madambakkam%2C%20Chennai" target="_blank"
+          rel="noopener" aria-label="Google Map"><i class="fa-solid fa-map-location-dot"></i><span>Google Map</span></a>
+        <a href="mailto:info@svtbuilders.com" aria-label="Mail"><i
+            class="fa-solid fa-envelope"></i><span>Mail</span></a>
+      </div>
+    </div>
+  </div>
+  <header
+    class="sticky top-0 z-30 flex items-center justify-between gap-6 border-b border-[#d8d2c7]/80 bg-paper/90 px-5 py-3 backdrop-blur-xl lg:px-[72px]">
+    <a class="flex items-center gap-3 font-black" href="index.html"><span
+        class="mark-glow grid h-11 w-11 place-items-center rounded-md bg-charcoal text-sm text-white">SVT</span><span>SVT
+        Builders</span></a>
+    <button
+      class="menu-toggle grid h-11 w-11 place-items-center rounded-md border border-[#d8d2c7] bg-white text-charcoal lg:hidden"
+      type="button" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars text-xl"
+        data-menu-icon></i></button>
+    <nav
+      class="site-nav absolute left-5 right-5 top-[76px] hidden flex-col gap-2 rounded-lg border border-[#d8d2c7] bg-white p-3 shadow-soft lg:static lg:ml-auto lg:flex lg:flex-row lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none">
+      <a class="rounded-md px-4 py-2.5 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+        href="index.html">Home</a><a
+        class="rounded-md px-4 py-2.5 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+        href="about.html">About</a>
+      <div class="relative group inline-block"><a
+          class="flex items-center gap-1 rounded-md bg-charcoal px-4 py-2.5 text-sm font-bold text-white"
+          href="services.html">Services <i class="fa-solid fa-chevron-down text-[10px]"></i></a>
+        <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50 w-64">
+          <div class="rounded-lg border border-[#d8d2c7] bg-white p-2 shadow-soft flex flex-col gap-1"><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-residential.html">Residential Construction</a><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-commercial.html">Commercial Construction</a><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-planning.html">Planning & Designing</a><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-estimation.html">Estimation</a><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-interior.html">Interior & Exterior</a><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-repair.html">Repair & Waterproofing</a><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-electrical.html">Electrical & Plumbing</a><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-cctv.html">CCTV & Security</a><a
+              class="rounded-md px-4 py-2 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+              href="service-vastu.html">Vastu-Friendly Planning</a></div>
+        </div>
+      </div><a class="rounded-md px-4 py-2.5 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+        href="projects.html">Projects</a><a
+        class="rounded-md px-4 py-2.5 text-sm font-bold text-slate-700 hover:bg-charcoal hover:text-white"
+        href="contact.html">Contact</a>
+    </nav> <a
+      class="hidden items-center gap-2 rounded-md bg-brass px-4 py-2.5 text-sm font-black text-[#14100b] shadow-lg shadow-brass/20 transition hover:-translate-y-0.5 hover:bg-[#c99952] lg:inline-flex"
+      href="tel:+919876543210" aria-label="Call SVT Builders">
+      <i class="fa-solid fa-phone"></i>
+      <span>Call</span>
+    </a>
+  </header>
+  <main>
+    <section
+      class="relative grid min-h-[520px] items-end gap-8 overflow-hidden bg-cover bg-center px-5 pb-8 pt-16 text-white lg:grid-cols-[1fr_520px] lg:px-[72px]"
+      style="background-image: linear-gradient(90deg, rgba(13,18,23,.86), rgba(13,18,23,.48), rgba(13,18,23,.2)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1800&q=80');">
+      <div class="hero-rise relative z-10 max-w-3xl">
+        <h1 class="text-[44px] font-black leading-none md:text-7xl">Planning & Designing</h1>
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-white/90 md:text-xl">Concept planning, design coordination,
+          material suggestions and project-stage preparation.</p>
+      </div>
+      <aside
+        class="panel-slide relative z-10 rounded-2xl border border-white/25 bg-white/10 p-5 shadow-soft backdrop-blur-2xl">
+        <div class="mb-4 flex items-start justify-between gap-4">
+          <div><strong class="block text-xl text-[#f4c878]">Enquire Now</strong>
+            <p class="mt-1 text-sm leading-6 text-white/80">Share your requirement for Planning & Designing.</p>
+          </div><span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-white/15 text-[#f4c878]"><i
+              class="fa-solid fa-screwdriver-wrench"></i></span>
+        </div>
+        <form class="grid gap-3 md:grid-cols-2" data-contact-form><input
+            class="rounded-lg border border-white/20 bg-white/15 px-4 py-2.5 text-sm text-white placeholder:text-white/70 outline-none backdrop-blur focus:border-brass focus:ring-4 focus:ring-brass/25"
+            name="name" type="text" placeholder="Name" required><input
+            class="rounded-lg border border-white/20 bg-white/15 px-4 py-2.5 text-sm text-white placeholder:text-white/70 outline-none backdrop-blur focus:border-brass focus:ring-4 focus:ring-brass/25"
+            name="phone" type="tel" placeholder="Phone Number" required><input
+            class="rounded-lg border border-white/20 bg-white/15 px-4 py-2.5 text-sm text-white placeholder:text-white/70 outline-none backdrop-blur focus:border-brass focus:ring-4 focus:ring-brass/25"
+            name="address" type="text" placeholder="Address"><input
+            class="rounded-lg border border-white/20 bg-white/15 px-4 py-2.5 text-sm text-white placeholder:text-white/70 outline-none backdrop-blur focus:border-brass focus:ring-4 focus:ring-brass/25"
+            name="email" type="email" placeholder="Email"><input type="hidden" name="service"
+            value="Planning & Designing"><textarea
+            class="min-h-20 rounded-lg border border-white/20 bg-white/15 px-4 py-2.5 text-sm text-white placeholder:text-white/70 outline-none backdrop-blur focus:border-brass focus:ring-4 focus:ring-brass/25 md:col-span-2"
+            name="purpose" placeholder="Project details"></textarea><button
+            class="enquiry-btn relative overflow-hidden rounded-lg bg-brass px-4 py-2.5 text-sm font-black text-[#14100b] shadow-lg shadow-brass/20 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-brass/40 md:col-span-2"
+            type="submit"><span class="relative z-10">Submit Enquiry</span></button>
+          <p class="text-sm font-bold text-[#f4c878] md:col-span-2" data-form-status aria-live="polite"></p>
+        </form>
+      </aside>
+    </section>
+    <section class="section grid gap-10 px-5 py-16 lg:grid-cols-[.85fr_1fr] lg:px-[72px]">
+      <div><span class="mb-3 block text-xs font-black uppercase text-teal">Overview</span>
+        <h2 class="text-3xl font-black leading-tight md:text-5xl">Laying the right foundation for your project.</h2>
+      </div>
+      <p class="text-lg leading-8 text-muted">Before construction begins, a solid plan is essential. We offer
+        comprehensive planning and design services, coordinating architects and engineers to create blueprints that
+        balance aesthetics, structural integrity, and budget.</p>
+    </section>
+    <section class="section px-5 py-16 lg:px-[72px] bg-[#ebe6dc]">
+      <div class="mb-9 max-w-3xl"><span class="mb-3 block text-xs font-black uppercase text-teal">What we do</span>
+        <h2 class="text-3xl font-black leading-tight md:text-5xl">Key Features of Planning & Designing</h2>
+      </div>
+      <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <article
+          class="rounded-lg border border-[#d8d2c7] bg-white p-7 shadow-sm transition hover:-translate-y-2 hover:shadow-soft">
+          <span class="mb-6 grid h-11 w-11 place-items-center rounded-md bg-[#e8f0ee] font-black text-teal"><i
+              class="fa-solid fa-check"></i></span>
+          <h3 class="mb-3 text-2xl font-black">Architectural Coordination</h3>
+          <p class="leading-7 text-muted">Working with experts for optimal design.</p>
+        </article>
+        <article
+          class="rounded-lg border border-[#d8d2c7] bg-white p-7 shadow-sm transition hover:-translate-y-2 hover:shadow-soft">
+          <span class="mb-6 grid h-11 w-11 place-items-center rounded-md bg-[#e8f0ee] font-black text-teal"><i
+              class="fa-solid fa-check"></i></span>
+          <h3 class="mb-3 text-2xl font-black">Material Selection</h3>
+          <p class="leading-7 text-muted">Guiding you through cost-effective and durable choices.</p>
+        </article>
+        <article
+          class="rounded-lg border border-[#d8d2c7] bg-white p-7 shadow-sm transition hover:-translate-y-2 hover:shadow-soft">
+          <span class="mb-6 grid h-11 w-11 place-items-center rounded-md bg-[#e8f0ee] font-black text-teal"><i
+              class="fa-solid fa-check"></i></span>
+          <h3 class="mb-3 text-2xl font-black">Approval Support</h3>
+          <p class="leading-7 text-muted">Assistance with necessary building permits and approvals.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section px-5 py-16 lg:px-[72px]">
+      <div class="grid gap-8 lg:grid-cols-[1fr_.9fr] lg:items-center">
+        <div class="overflow-hidden rounded-lg border border-[#d8d2c7] bg-white shadow-sm">
+          <img class="h-[360px] w-full object-cover"
+            src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80"
+            alt="Construction planning discussion">
+        </div>
+        <div>
+          <span class="mb-3 block text-xs font-black uppercase text-teal">Detailed scope</span>
+          <h2 class="text-3xl font-black leading-tight md:text-5xl">Good planning reduces rework, delays and budget
+            surprises.</h2>
+          <p class="mt-5 text-lg leading-8 text-muted">SVT coordinates concept layouts, room flow, structural inputs,
+            material direction, service routes and practical build sequencing so the project can move from idea to site
+            work with clarity.</p>
+          <div class="mt-6 grid gap-3 sm:grid-cols-2">
+            <span class="rounded-md border-l-4 border-brass bg-[#ebe6dc] p-4 font-bold text-slate-700">Space usage
+              planning</span>
+            <span class="rounded-md border-l-4 border-brass bg-[#ebe6dc] p-4 font-bold text-slate-700">Architect and
+              engineer coordination</span>
+            <span class="rounded-md border-l-4 border-brass bg-[#ebe6dc] p-4 font-bold text-slate-700">Material and
+              finish direction</span>
+            <span class="rounded-md border-l-4 border-brass bg-[#ebe6dc] p-4 font-bold text-slate-700">Build-stage
+              preparation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section bg-[#ebe6dc] px-5 py-16 lg:px-[72px]">
+      <div class="mb-9 max-w-3xl"><span class="mb-3 block text-xs font-black uppercase text-teal">Planning
+          visuals</span>
+        <h2 class="text-3xl font-black leading-tight md:text-5xl">Design decisions that make execution smoother</h2>
+      </div>
+      <div class="grid gap-5 md:grid-cols-3">
+        <article class="overflow-hidden rounded-lg border border-[#d8d2c7] bg-white shadow-sm"><img
+            class="h-52 w-full object-cover"
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80"
+            alt="Blueprints and planning table">
+          <div class="p-6">
+            <h3 class="mb-3 text-xl font-black">Layout clarity</h3>
+            <p class="leading-7 text-muted">Room sizes, circulation, light and ventilation are reviewed before
+              execution.</p>
+          </div>
+        </article>
+        <article class="overflow-hidden rounded-lg border border-[#d8d2c7] bg-white shadow-sm"><img
+            class="h-52 w-full object-cover"
+            src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=80"
+            alt="Engineer checking construction plans">
+          <div class="p-6">
+            <h3 class="mb-3 text-xl font-black">Technical inputs</h3>
+            <p class="leading-7 text-muted">Structural and service decisions are aligned with practical site conditions.
+            </p>
+          </div>
+        </article>
+        <article class="overflow-hidden rounded-lg border border-[#d8d2c7] bg-white shadow-sm"><img
+            class="h-52 w-full object-cover"
+            src="https://images.unsplash.com/photo-1541976590-713941681591?auto=format&fit=crop&w=900&q=80"
+            alt="Construction site preparation">
+          <div class="p-6">
+            <h3 class="mb-3 text-xl font-black">Execution roadmap</h3>
+            <p class="leading-7 text-muted">The work sequence is mapped so materials, teams and decisions arrive on
+              time.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="grid gap-8 bg-[#101820] px-5 py-12 text-white lg:grid-cols-[1.4fr_.7fr_1fr_1fr] lg:px-[72px]">
+    <div>
+      <div class="mb-4 flex items-center gap-3"><span
+          class="grid h-12 w-12 place-items-center rounded-md bg-brass text-sm font-black text-[#14100b]">SVT</span>
+        <h3 class="text-2xl font-black">SVT Builders & Promoters</h3>
+      </div>
+      <p class="leading-7 text-white/70">Residential, commercial, interior and renovation construction services.</p>
+      <div class="mt-5 flex gap-3"><a
+          class="grid h-10 w-10 place-items-center rounded-md bg-white/10 hover:bg-brass hover:text-[#14100b]" href="#"
+          aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a
+          class="grid h-10 w-10 place-items-center rounded-md bg-white/10 hover:bg-brass hover:text-[#14100b]" href="#"
+          aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a
+          class="grid h-10 w-10 place-items-center rounded-md bg-white/10 hover:bg-brass hover:text-[#14100b]" href="#"
+          aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a
+          class="grid h-10 w-10 place-items-center rounded-md bg-white/10 hover:bg-brass hover:text-[#14100b]" href="#"
+          aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></div>
+    </div>
+    <div>
+      <h4 class="mb-3 font-black">Pages</h4><a class="mt-2 block text-white/70" href="index.html">Home</a><a
+        class="mt-2 block text-white/70" href="about.html">About</a><a class="mt-2 block text-white/70"
+        href="services.html">Services</a><a class="mt-2 block text-white/70" href="projects.html">Projects</a>
+    </div>
+    <div>
+      <h4 class="mb-3 font-black">Services</h4><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-residential.html">Residential</a><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-commercial.html">Commercial</a><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-planning.html">Planning</a><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-estimation.html">Estimation</a><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-interior.html">Interior & Exterior</a><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-repair.html">Repair</a><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-electrical.html">Electrical & Plumbing</a><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-cctv.html">CCTV & Security</a><a class="mt-2 block text-white/70 hover:text-brass"
+        href="service-vastu.html">Vastu Planning</a>
+    </div>
+    <div>
+      <h4 class="mb-3 font-black">Contact</h4>
+      <p class="leading-7 text-white/70">Madambakkam, Chennai, Tamil Nadu</p>
+      <p class="leading-7 text-white/70">+91 98765 43210</p>
+      <p class="leading-7 text-white/70">info@svtbuilders.com</p>
+    </div>
+    <div
+      class="flex flex-col gap-3 border-t border-white/10 pt-5 text-sm text-white/60 lg:col-span-4 lg:flex-row lg:items-center lg:justify-between">
+      <span>Copyright © 2026 SVT Builders & Promoters. Designed by <a class="font-bold text-brass hover:text-white"
+          href="https://gobrightglobal.com/" target="_blank" rel="noopener">GoBright Global</a>.</span><span
+        class="flex gap-4"><button class="font-bold text-white/70 hover:text-brass" type="button"
+          data-policy="terms">Terms & Conditions</button><button class="font-bold text-white/70 hover:text-brass"
+          type="button" data-policy="privacy">Privacy Policy</button></span></div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
